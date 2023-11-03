@@ -27,11 +27,9 @@ void Soil::setSoilWater(int amount) {
 void Soil::setSoilHydration(std::string level) {
 	m_hydration = "parched";
 }
-//Increment plant soil water by 1 unit, or state saturation->
-//level
+//Increment plant soil water by 1 unit, or state saturation level
 void Soil::waterSoil() {
-    switch (this->getSoilWater())
-    {
+    switch (this->getSoilWater()){
     case 0:
         setSoilWater(getSoilWater() +1);
         setSoilHydration("damp");
