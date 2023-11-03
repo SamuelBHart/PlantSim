@@ -8,7 +8,7 @@ Plant::Plant(Soil* soil, Seed* seed) {
 	setPlantSize(1);
 	setPlantWater(1);
 	setPlantHydration("damp");
-	setPlantType(seed->getSeedType());
+	setPlantType(seed->getType());
 	setPlantStatus(true);
 	setPlantSoil(soil);
 	setPlantSeed(seed);

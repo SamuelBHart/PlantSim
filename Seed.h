@@ -3,8 +3,7 @@
 #include <string>
 #include <vector>
 
-class Seed
-{
+class Seed{
 protected:
 	std::string m_type{};
 	std::vector<std::string> m_typesVector;

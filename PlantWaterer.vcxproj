@@ -152,8 +152,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Plant.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="Seed.h" />
     <ClInclude Include="Soil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Plant Sim.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
